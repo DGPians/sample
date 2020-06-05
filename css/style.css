@@ -1,0 +1,90 @@
+@font-face{
+    font-family:"myFont";
+    src:url("Fonts/5111847/78668ee0-b774-4508-85de-f45a8ad0f43a.woff2") format("woff2"),url("Fonts/5111847/1c01f33d-6612-46fe-b61b-4b88340eb3c2.woff") format("woff");
+}
+header{
+    background-image: linear-gradient(rgba(67, 0, 83, 0.815),rgb(247, 243, 10));
+    padding: 15px;
+}
+nav{
+    text-align: center;
+    width: 100%;
+}
+a{ 
+    width: 10%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 100%;
+    color: rgb(216, 101, 81);
+    display: inline-block;
+    text-decoration: none;
+    
+}
+.active{
+    border: rgb(240, 223, 238);
+    border-width: 2px;
+    background-color: black;
+}
+
+
+a:hover{
+    color:#ffffff;
+    background-color: #7b7c7b;
+}
+a:focus{
+    color:#ffffff;
+    background-color: #7b7c7b;
+}
+
+h2{
+    font-family : sans-serif,Arial;
+    text-align: left;
+    font-size: 150%;
+    color: rgb(255, 118, 27);
+    background-color: rgb(224, 252, 182);
+    font-variant: small-caps;
+}
+section{
+    width: 30%;
+    min-width: auto;
+    float: left;
+    margin: 1%;
+    border-style: inset;
+    border-color: #ffffff;
+    }
+p{
+    text-align: justify;
+    font-size: 110%;
+    color: rgb(77, 77, 77);
+    line-height: 130%;
+}
+h1{
+    color: white;    
+    font-family : myFont;
+    text-align: center;
+    font-size: 500%;
+    margin: 0px;
+    margin-bottom: 2%;
+}
+body{
+    background-color: rgba(190, 0, 238, 0.329);
+}
+details{
+    font-style: italic;
+}
+summary{
+    font-style: normal;
+}
+footer{
+    clear: both;
+    color: white;
+    background-image: linear-gradient(rgb(0, 0, 0),rgb(64, 57, 68));
+    font-size: 90%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+img{
+    width: 3cm;
+}
+ul{
+    list-style-type: disc;
+    
+}
